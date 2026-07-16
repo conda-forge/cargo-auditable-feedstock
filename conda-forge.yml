@@ -3,13 +3,15 @@ bot:
 conda_build_tool: rattler-build
 conda_install_tool: pixi
 build_platform:
-  osx_arm64: osx_64
-  linux_aarch64: linux_64
   linux_ppc64le: linux_64
-test: native
+  win_arm64: win_64
+test: native_and_emulated
 github:
   branch_name: main
   tooling_branch_name: main
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
+provider:
+  osx_arm64: default
+  linux_aarch64: default
