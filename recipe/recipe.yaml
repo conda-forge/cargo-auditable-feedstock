@@ -1,5 +1,5 @@
 context:
-  version: "0.7.6"
+  version: "0.7.7"
 
 package:
   name: cargo-auditable
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rust-secure-code/cargo-auditable/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 04cb1c742bdd2ed0ddbb0e05a89dba24a00391c9145ef357c23ff653eba8c166
+  sha256: cab2a4b65cfde0734c98416740d24d4e3f03441ea8a0b385f0431e35244a05aa
 
 build:
   number: 0
